@@ -211,7 +211,7 @@ export default function Persist() {
   const mint = async () => {
 
       const result = await tx(writeContracts.CarapacePersist.createUpload( {
-        value: 100000000000000,
+        value: 0,
         gasLimit: 1000000
       }));
       
@@ -307,7 +307,7 @@ export default function Persist() {
       const transactionId = tx.id;
       await tx.sign();
       const result = await tx.upload();
-      const arweaveURI = `http://arweave.net/${tx.id}`;
+      const arweaveURI = `https://arweave.net/${tx.id}`;
       return arweaveURI;
     } else {
       console.log("Need to initialize Bundlr!");
@@ -410,6 +410,7 @@ export default function Persist() {
           >
             <p>Please add funds to your Bundlr wallet to allow uploading files to Arweave. </p>
             <p>Current balance: {balance} ETH</p>
+            <p>Note that on Goerli network it might take about 1 hour to fund Bundlr wallet. </p>
             <br/>
             <Input.Group compact>
               <Input

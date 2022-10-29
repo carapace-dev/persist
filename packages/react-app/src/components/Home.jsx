@@ -1,7 +1,7 @@
 import { Button, Empty, Image, Row, Col, Typography, Space } from "antd";
 import { LoginOutlined, ArrowLeftOutlined, ArrowRightOutlined,CloseOutlined } from '@ant-design/icons';
 import React, { useState, useContext } from "react";
-import carapaceLogo from '../logo_white_circle.png';
+import carapaceLogo from '../carapace_persist.svg';
 
 const { Text } = Typography;
 
@@ -61,8 +61,7 @@ export default function Home({
           }}
           description={
             <span>
-              Connect your wallet and start protecting your digital assets. 
-              Please read the <a href="https://docs.carapace.io" target="_blank">Docs</a>.
+              Connect your wallet to create a digital safe. 
             </span>
           }
         >

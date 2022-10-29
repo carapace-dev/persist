@@ -74,7 +74,7 @@ export default function DigitalSafeCard(
             text && <iframe src={text} height="100%" width="100%"></iframe>
           }
           {
-            video && <video controls autoplay><source type="video/mp4" src={video}/></video>
+            video && <video controls autoplay="true" width="760" height="480"><source type="video/mp4" src={video}/></video>
           }
           {
             decrypting && <Text>Decrypting...<Button loading type='text' shape='circle' /></Text>

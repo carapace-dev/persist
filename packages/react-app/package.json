@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Carapace.io <contact@carapace.io>",
   "license": "MIT",
-  "homepage": "https://app.carapace.io",
+  "homepage": "https://ethlisbon22.carapace.io",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -93,7 +93,7 @@
   },
   "scripts": {
     "build": "react-scripts build",
-    "deploy": "echo app.carapace.io > ./build/CNAME && gh-pages -d build",
+    "deploy": "echo ethlisbon22.carapace.io > ./build/CNAME && gh-pages -d build",
     "eject": "react-scripts eject",
     "prestart": "node ./scripts/create_contracts.js",
     "start": "react-scripts start",

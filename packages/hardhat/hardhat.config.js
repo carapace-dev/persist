@@ -343,14 +343,14 @@ module.exports = {
   },
   namedAccounts: {
     deployer: {
-      default: 0, // here this will by default take the first account as deployer
+      default: 1, // here this will by default take the first account as deployer
     },
   },
   etherscan: {
     // uncomment for ethereum
-    // apiKey: process.env.ETHERSCAN_API_KEY
+    apiKey: process.env.ETHERSCAN_API_KEY
     // uncomment for polygon
-    apiKey: process.env.POLYGONSCAN_API_KEY
+    // apiKey: process.env.POLYGONSCAN_API_KEY
     
     // Need @nomiclabs/hardhat-etherscan update >3.0.0
     // apiKey: {
@@ -367,7 +367,7 @@ module.exports = {
     disambiguatePaths: false,
     runOnCompile: true,
     strict: false,
-    only: [':CarapaceStorage$', ':CarapaceDeposit$', ':CarapaceSmartVault$', ':CarapaceStaking$', ':CarapaceTreasury$', ':CarapaceEscrow$', ':CarapaceAccess$'],
+    only: [':CarapacePersist$'],
   },
 };
 
