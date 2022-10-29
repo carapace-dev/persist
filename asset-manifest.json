@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ac6feb16.chunk.css",
-    "main.js": "/static/js/main.5fdad52c.chunk.js",
-    "main.js.map": "/static/js/main.5fdad52c.chunk.js.map",
+    "main.js": "/static/js/main.3e089da6.chunk.js",
+    "main.js.map": "/static/js/main.3e089da6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e549a072.js",
     "runtime-main.js.map": "/static/js/runtime-main.e549a072.js.map",
     "static/css/2.bbe50542.chunk.css": "/static/css/2.bbe50542.chunk.css",
@@ -14,6 +14,7 @@
     "static/js/2.7d9a1ed9.chunk.js.LICENSE.txt": "/static/js/2.7d9a1ed9.chunk.js.LICENSE.txt",
     "static/media/GitBook_black.cb545b10.png": "/static/media/GitBook_black.cb545b10.png",
     "static/media/GitBook_white.881a3bf7.png": "/static/media/GitBook_white.881a3bf7.png",
+    "static/media/carapace_persist.847e8a5e.svg": "/static/media/carapace_persist.847e8a5e.svg",
     "static/media/logo_white_circle.b2c39a5c.png": "/static/media/logo_white_circle.b2c39a5c.png"
   },
   "entrypoints": [
@@ -21,6 +22,6 @@
     "static/css/2.bbe50542.chunk.css",
     "static/js/2.7d9a1ed9.chunk.js",
     "static/css/main.ac6feb16.chunk.css",
-    "static/js/main.5fdad52c.chunk.js"
+    "static/js/main.3e089da6.chunk.js"
   ]
 }
