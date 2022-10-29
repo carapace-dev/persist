@@ -1,0 +1,4 @@
+node_modules
+.env
+mnemonic.txt
+build
